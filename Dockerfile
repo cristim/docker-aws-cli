@@ -3,6 +3,8 @@ FROM alpine:3.4
 MAINTAINER WebOps <webops_team@pebble.com>
 
 RUN apk --update add \
+    bash \
+    docker \
     python \
     py-pip \
     jq \
